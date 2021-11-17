@@ -37,7 +37,7 @@ main{
     background-image: url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: -47rem -26rem;
-    background-size: 95%;    
+    background-size: 855px;    
     border-radius: 2rem;
     max-width: 92.2rem;   
 }
@@ -45,9 +45,9 @@ main{
     display: block;
     position: absolute;
     z-index: 1;
-    top: 57%;
+    top: 250px;
     left: 0;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-125px) translateY(-70px);
 }
 .card__image,
 .right {
@@ -63,7 +63,7 @@ main{
 	position: relative;
 	top: auto;
 	left: auto;
-	transform: translateX(-7rem);	
+	transform: translateX(-9rem);	
 	width: 100%;
 	max-width: 50rem;
 	height: auto;		
@@ -133,6 +133,5 @@ main{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
 
     
