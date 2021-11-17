@@ -91,10 +91,20 @@ main{
     font-size: 1.5rem;
     font-family: 'Kumbh Sans', sans-serif;
     text-align: left;
+    color: var(--Very-dark-desaturated-blue);
+    cursor: pointer;
+    transition: 0.4s;
 }
-.right button.open{
+.right button:hover{
+    color: var(--Soft-red);
+}
+.right button.active{
     font-weight: 700;
 }
+.right button.active:hover{
+    color: var(--Very-dark-desaturated-blue);
+}
+/*adicionando e rotacionando um icone */
 .right button::after {
 	content: '';	
 	width: 1rem;
@@ -105,32 +115,24 @@ main{
 	background-position: center center;
 	transition: transform 300ms ease-in-out;
 }
-.right button.open::after {
+.right button.active::after {
 	transform: rotate(180deg);
 }
 .right button:focus,
 .right button:focus-visible {
-	border: none;
-	outline: dashed 1px rgba(0, 0, 0, 0.25);
+	border: none;	
 }
 .right .panel p {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	line-height: 1.4;
 	padding-bottom: 1rem;
+    color: var(--Dark-grayish-blue);
 }
 .right .panel {
-	transition: height 300ms ease;
-}
-.right .panel.collapse {
-	display: none;
-}
-.right .panel.collapsing {
-	height: 0;
-	overflow: hidden;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
 
-.right .panel.open {
-	display: block;
-}
 
     
