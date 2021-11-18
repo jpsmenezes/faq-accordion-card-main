@@ -77,7 +77,7 @@ main{
 }
 .right .item{
     padding-top: 1rem;
-	border-bottom: 1px solid var(--Dark-grayish-blue);
+	border-bottom: 1px solid hsla(240, 6%, 50%, 0.151);
 }
 .right button{
     display: flex;
@@ -93,7 +93,7 @@ main{
     text-align: left;
     color: var(--Very-dark-desaturated-blue);
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .right button:hover{
     color: var(--Soft-red);
