@@ -134,4 +134,14 @@ main{
     transition: max-height 0.2s ease-out;
 }
 
+/*adiciona um scroll ao conteiner*/
+.accordions{
+    height: 270px;
+    overflow-y: auto;
+}
+/*deixa o scroll invisivel*/
+.accordions::-webkit-scrollbar{
+    display: none;
+}
+/***********************************/
     
