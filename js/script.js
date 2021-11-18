@@ -2,10 +2,12 @@
 document.querySelectorAll('.accordion').forEach((item) => {
   item.addEventListener('click', (event) => {
     item.classList.toggle("active");
-    const panel = item.nextElementSibling;
-    (panel.style.maxHeight) ? panel.style.maxHeight = null : panel.style.maxHeight = panel.scrollHeight + "px";    
+    const panel = item.nextElementSibling;  
+    //A propriedade scrollHeight retorna toda a altura de um elemento em pixels, incluindo preenchimento, mas não a borda, barra de rolagem ou margem.  
+    (panel.style.maxHeight) ? panel.style.maxHeight = null : panel.style.maxHeight = panel.scrollHeight + "px"; 
+            
   });
-});
+});  
 
 // versão 02
 
