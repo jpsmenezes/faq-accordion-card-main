@@ -59,14 +59,18 @@ main{
 	align-items: center;
 	overflow: hidden;
 }
-.card__image img {
+.card__image .img-desktop {
 	position: relative;
+    display: block;
 	top: auto;
 	left: auto;
 	transform: translateX(-9rem);	
 	width: 100%;
 	max-width: 50rem;
 	height: auto;		
+}
+.card__image .img-mobile{
+    display: none;
 }
 .right{
     padding-top: 2rem;

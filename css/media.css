@@ -1,0 +1,28 @@
+@media screen and (max-width: 870px){
+     main{
+          display: flex;
+          flex-direction: column; 
+          padding: 10rem;     
+          background-image: url(../images/bg-pattern-mobile.svg);   
+          background-position: center;
+          margin-top: 15rem;
+      }
+      .card__image{
+         overflow:visible;
+      }
+      .card__image .img-desktop {         
+          display: none;         	
+     }
+     .card__image .img-mobile{
+          display: block;
+          position: absolute; 	     
+	     left: auto;
+	     transform: translateY(-14rem);	
+	     width: 100%;	     
+	     height: auto;	
+     }
+     .card__box {
+          display: none;          
+      }
+
+}
