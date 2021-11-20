@@ -93,7 +93,7 @@
 /*////////////// 510px ////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width: 510px){
      body{          
-          padding: 13rem 2% 8rem 2%;
+          padding: 13rem 6% 8rem 6%;
       }
      main{           
           background-size: 30rem; 
@@ -121,5 +121,7 @@
           font-size: 4rem;
          margin-bottom: 1rem;
      }
-
+     .accordions{          
+          padding: 0 7%;
+     }
 }
