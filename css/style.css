@@ -26,6 +26,7 @@ body{
     font-size: 1.6rem;
     background-image: linear-gradient(var(--Soft-violet),var(--Soft-blue));
     padding: 7rem 2%;
+    height: 100vh;
 }
 main{
     position: relative;

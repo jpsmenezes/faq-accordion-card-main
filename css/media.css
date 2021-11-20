@@ -2,6 +2,7 @@
 @media screen and (max-width: 870px){
      body{
           padding: 13rem 2%;
+          height: auto;
      }
      main{
           display: flex;
