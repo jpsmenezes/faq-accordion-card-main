@@ -1,3 +1,4 @@
+/*////////////// 870px ////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width: 870px){
     
      main{
@@ -7,6 +8,7 @@
           background-position: center 0;
           background-size: 60rem;
           margin-top: 26rem;
+          height: auto;
           padding: 0;
       }
       .card__image{
@@ -63,6 +65,7 @@
 
 }
 
+/*////////////// 730px ////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width: 730px){
      main{           
           background-size: 40rem; 
@@ -87,10 +90,14 @@
      }
 
 }
+/*////////////// 510px ////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width: 510px){
+     body{          
+          padding: 13rem 2% 8rem 2%;
+      }
      main{           
           background-size: 30rem; 
-          margin-top: 8rem;        
+          margin-top: 5rem;        
       }
      .card__image .img-mobile{                     
 	     transform: translateY(-14rem);	
@@ -102,16 +109,16 @@
           
       }
       .right button{           
-          font-size: 1.3rem;          
+          font-size: 1.4rem;          
      }
      .right .panel p {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           line-height: 1.4;
           padding-bottom: 1rem;
          color: var(--Dark-grayish-blue);
      }
      .right h1{
-          font-size: 5rem;
+          font-size: 4rem;
          margin-bottom: 1rem;
      }
 
