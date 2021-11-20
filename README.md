@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [FAQ accordion card solution](https://jpsmenezes.github.io/faq-accordion-card-main/)
+- Live Site URL: [Accordion card solution](https://jpsmenezes.github.io/faq-accordion-card-main/)
 - Solution URL:  [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-and-js-2fjFXW5Ux)
 
 ## My process
