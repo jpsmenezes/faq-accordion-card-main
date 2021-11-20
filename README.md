@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [FAQ accordion card solution](https://jpsmenezes.github.io/faq-accordion-card-main/)
-- Solution URL:  [Add live site URL here](https://www.frontendmentor.io/solutions/html-css-and-js-2fjFXW5Ux)
+- Solution URL:  [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-and-js-2fjFXW5Ux)
 
 ## My process
 
