@@ -25,7 +25,7 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 1.6rem;
     background-image: linear-gradient(var(--Soft-violet),var(--Soft-blue));
-    padding: 13rem 2%;
+    padding: 7rem 2%;
 }
 main{
     position: relative;

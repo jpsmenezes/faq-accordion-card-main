@@ -1,6 +1,8 @@
 /*////////////// 870px ////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width: 870px){
-    
+     body{
+          padding: 13rem 2%;
+     }
      main{
           display: flex;
           flex-direction: column;               
