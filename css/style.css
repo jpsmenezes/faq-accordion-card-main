@@ -21,8 +21,7 @@ html{
      /*Cada 1rem será considerado 10px*/
      font-size: 62.5%;
 }
-body{
-    max-width: 1440px;
+body{   
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 1.6rem;
     background-image: linear-gradient(var(--Soft-violet),var(--Soft-blue));
