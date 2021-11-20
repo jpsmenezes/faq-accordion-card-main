@@ -39,7 +39,8 @@ main{
     background-position: -47rem -26rem;
     background-size: 855px;    
     border-radius: 2rem;
-    max-width: 92.2rem;   
+    max-width: 92.2rem;  
+    min-width: 36rem; 
 }
 .card__box {
     display: block;
